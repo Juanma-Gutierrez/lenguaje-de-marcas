@@ -1,0 +1,53 @@
+@font-face {
+    font-family: Tangerine;
+    src: url("../fonts/Tangerine-Regular.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Tangerine', cursive;
+    font-size: 2.5rem;
+    background-color: black;
+    background-image: url("../images/fondo_pirata.jpg");
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 0 -100px;
+    color: #F7DDC9;
+}
+
+h1 {
+    font-size: 3.5rem;
+    font-weight: 500;
+    margin: 15px 50px;
+}
+
+p {
+    margin: 15px 50px;
+}
+
+img {
+    width: 300px;
+    margin: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: #B4B8D0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.centered {
+    margin: auto;
+    text-align: center;
+}
