@@ -1,3 +1,9 @@
+/********************************************************/
+/* Web del Romanticismo: Hoja de esilo de autores       */
+/* Autor: Juan Manuel Gutiérrez                         */
+/* Versión: 1.0 24/10/22                                */
+/********************************************************/
+
 @font-face {
     font-family: Montserrat;
     src: url("../fonts/Montserrat-VariableFont_wght.ttf");
@@ -22,7 +28,6 @@ h1 {
 
 p {
     margin: 20px;
-    text-indent: 3rem;
 }
 
 .border img {
@@ -57,4 +62,24 @@ a {
 .centered {
     margin: auto;
     text-align: center;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    background-color: #6fadc7;
+    color: #111b20;
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer a {
+    color: #111b20;
+}
+
+.footer a:hover {
+    color: #eee;
 }

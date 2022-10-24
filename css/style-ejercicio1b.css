@@ -12,12 +12,6 @@
 body {
     font-family: 'Tangerine', cursive;
     font-size: 2.5rem;
-    background-color: black;
-    background-image: url("../images/fondo_pirata.jpg");
-    background-size: 100vw;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: 0 -100px;
     color: #F7DDC9;
 }
 
@@ -37,8 +31,8 @@ img {
 }
 
 a {
-    text-decoration: none;
     color: #B4B8D0;
+    text-decoration: none;
 }
 
 .container {
@@ -50,4 +44,19 @@ a {
 .centered {
     margin: auto;
     text-align: center;
+}
+
+.fondo {
+    position: fixed;
+    top: 0;
+    background-image: url("../images/ejercicio1/fondo_pirata.jpg");
+    background-position: 0 -100px;
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    height: 100vh;
+    width: 100vw;
+}
+
+.poema{
+    position:relative;
 }

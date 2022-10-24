@@ -1,23 +1,31 @@
+/********************************************************/
+/* Web con ejercicios y prácticas de Lenguaje de Marcas */
+/* Autor: Juan Manuel Gutiérrez                         */
+/* Versión: 1.0 24/10/22                                */
+/********************************************************/
+
 @font-face {
     font-family: Roboto;
-    src: url("../fonts/Roboto-Thin.ttf");
+    src: url("../fonts/Roboto-Medium.ttf");
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-weight: 100;
     transition: 0.3s;
 }
 
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #F7DDC9;
-    color: #09090C;
+    color: #111b20;
 }
 
 h1 {
-    margin: 20px;
+    margin: 40px;
+    font-weight: bold;
 }
 
 p {
@@ -27,12 +35,6 @@ p {
 
 a {
     text-decoration: none;
-    font-weight: bold;
-    color: #847EA0;
-}
-
-li{
-    list-style: none;
 }
 
 .container {
@@ -45,4 +47,42 @@ li{
 .centered {
     margin: auto;
     text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.boton {
+    border: 1px solid #292521;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    color: #292521;
+    font-weight: bold;
+    list-style: none;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 200px;
+}
+
+.boton:hover {
+    background-color: #292521;
+    color: #f9f9f9;
+}
+
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    background-color: #6fadc7;
+    color: #111b20;
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
