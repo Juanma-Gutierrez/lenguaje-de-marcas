@@ -18,8 +18,8 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #F7DDC9;
+    font-family: "Roboto", sans-serif;
+    background-color: #f7ddc9;
     color: #111b20;
 }
 
@@ -37,19 +37,12 @@ a {
     text-decoration: none;
 }
 
-.container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 20px;
-}
-
 .centered {
     margin: auto;
     text-align: center;
 }
 
-.container{
+.container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -73,7 +66,6 @@ a {
     background-color: #292521;
     color: #f9f9f9;
 }
-
 
 .footer {
     position: fixed;

@@ -1,3 +1,9 @@
+/********************************************************/
+/* Web del Romanticismo: Canción del pirata             */
+/* Autor: Juan Manuel Gutiérrez                         */
+/* Versión: 1.0 24/10/22                                */
+/********************************************************/
+
 @font-face {
     font-family: Tangerine;
     src: url("../fonts/Tangerine-Regular.ttf");
@@ -49,7 +55,7 @@ a {
 .fondo {
     position: fixed;
     top: 0;
-    background-image: url("../images/ejercicio1/fondo_pirata.jpg");
+    background-image: url("../images/fondo_pirata.jpg");
     background-position: 0 -100px;
     background-repeat: no-repeat;
     background-size: 100vw;
