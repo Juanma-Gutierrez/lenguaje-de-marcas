@@ -17,10 +17,9 @@
 }
 
 body {
-    font-family: "Montserrat", sans-serif;
-    background-color: #9aaed1;
-    color: #09090c;
-    padding-bottom: 50px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F7DDC9;
+    color: #09090C;
 }
 
 h1 {
@@ -31,23 +30,44 @@ p {
     margin: 20px;
 }
 
-img {
-    float: right;
-    width: 200px;
-    margin: 10px;
+.border img {
+    width: 300px;
+}
+
+.border img:hover {
+    transform: scale(1.1) rotate(1deg);
 }
 
 a {
     text-decoration: none;
     font-weight: bold;
-    color: #524e62;
+    color: #847EA0;
 }
 
-#wrapper {
-    background-color: #b3c9ef;
-    width: 70%;
+.text-container {
+    width: 60%;
+    margin:auto
+}
+
+.border {
+    width: 300px;
+    height: 300px;
+    margin: 30px;
+    overflow: hidden;
+    box-shadow: 10px 10px 64px -6px rgba(0, 0, 0, 0.75);
+    border-radius: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     padding: 20px;
+}
+
+.centered {
     margin: auto;
+    text-align: center;
 }
 
 .footer {
@@ -70,8 +90,16 @@ a {
     color: #eee;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width:600px) {
+    
     .text-container {
         width: 100%;
+    }
+
+    .container {
+        flex-direction: column;
+        flex-flow: column-reverse;
+        padding: 10px;
+        margin-bottom: 50px;
     }
 }
