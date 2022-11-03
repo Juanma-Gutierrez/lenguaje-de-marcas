@@ -94,6 +94,7 @@ a {
     .text-container {
         width: 100%;
     }
+    
     .container {
         flex-direction: column;
         flex-flow: column-reverse;
