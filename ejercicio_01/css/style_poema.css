@@ -15,54 +15,47 @@
     box-sizing: border-box;
 }
 
+/* 
+opción 1: trama en vertical a la izquierda
 body {
     font-family: 'Tangerine', cursive;
-    font-size: 2.5rem;
-    color: #F7DDC9;
+    font-size: 2rem;
+    color: #293951;
+    background-image: url("../images/gold-pirates-icon-with-dark-blue-background-free-vector.jpg");
+    background-repeat: repeat-y;
+    background-size: 10%;
+    background-color: #c4945d;
+} */
+
+body {
+    font-family: 'Tangerine', cursive;
+    font-size: 2rem;
+    color: #f4f5f7;
+    background-image: url("../images/elena-theodoridou-h0jsVAp3emY-unsplash.jpg");
+    background-size: 100%;
+    background-position: top;
+    background-color: #c4945d;
 }
 
 h1 {
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     font-weight: 500;
-    margin: 15px 50px;
-}
-
-p {
-    margin: 15px 50px;
-}
-
-img {
-    width: 300px;
-    margin: 30px;
 }
 
 a {
-    color: #B4B8D0;
+    color: #8297bc;
     text-decoration: none;
 }
 
-.container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+p {
+    margin-bottom: 1rem;
 }
 
-.centered {
-    margin: auto;
-    text-align: center;
-}
+#wrapper {
+    margin: 2%;
+    border-radius: 20px;
+    width: max-content;
+    padding: 20px;
+    background-color: #0009;
 
-.fondo {
-    position: fixed;
-    top: 0;
-    background-image: url("../images/fondo_pirata.jpg");
-    background-position: 0 -100px;
-    background-repeat: no-repeat;
-    background-size: 100vw;
-    height: 100vh;
-    width: 100vw;
-}
-
-.poema{
-    position:relative;
 }

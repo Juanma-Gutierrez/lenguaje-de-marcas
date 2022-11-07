@@ -19,6 +19,8 @@
 body {
     font-family: "Montserrat", sans-serif;
     background-color: #9aaed1;
+    background-size: 200px;
+    background-blend-mode: color-dodge;
     color: #09090c;
     padding-bottom: 50px;
 }
@@ -44,9 +46,9 @@ a {
 }
 
 #wrapper {
-    background-color: #b3c9ef;
-    width: 70%;
-    padding: 20px;
+    background-color: #ffffff;
+    width: 80%;
+    padding: 15px;
     margin: auto;
 }
 
