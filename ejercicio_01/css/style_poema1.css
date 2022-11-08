@@ -15,25 +15,14 @@
     box-sizing: border-box;
 }
 
-/* 
-opción 1: trama en vertical a la izquierda
-body {
-    font-family: 'Tangerine', cursive;
-    font-size: 2rem;
-    color: #293951;
-    background-image: url("../images/gold-pirates-icon-with-dark-blue-background-free-vector.jpg");
-    background-repeat: repeat-y;
-    background-size: 10%;
-    background-color: #c4945d;
-} */
 
 body {
     font-family: 'Tangerine', cursive;
     font-size: 2rem;
-    color: #f4f5f7;
-    background-image: url("../images/elena-theodoridou-h0jsVAp3emY-unsplash.jpg");
-    background-size: 100%;
-    background-position: top;
+    color: #cdd8e8;
+    background-image: url("../images/gold-pirates-icon-with-dark-blue-background-free-vector.jpg");
+    background-repeat: repeat-y;
+    background-size: 10%;
     background-color: #c4945d;
 }
 
@@ -52,10 +41,9 @@ p {
 }
 
 #wrapper {
-    margin: 2%;
-    border-radius: 20px;
+    margin: 0;
     width: max-content;
-    padding: 20px;
+    padding: 20px 20px 20px 100px;
     background-color: #0009;
 
 }
