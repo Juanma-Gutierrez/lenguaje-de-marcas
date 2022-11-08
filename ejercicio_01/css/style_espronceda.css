@@ -72,6 +72,11 @@ a {
     color: #eee;
 }
 
+.fa {
+    font-size: 2rem;
+    color: #111b20;
+}
+
 @media only screen and (max-width: 600px) {
     .text-container {
         width: 100%;
