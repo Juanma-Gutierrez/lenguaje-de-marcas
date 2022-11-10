@@ -1,0 +1,48 @@
+/********************************************************/
+/* Web del Romanticismo: index global del romanticismo  */
+/* Autor: Juan Manuel Gutiérrez                         */
+/* Versión: 1.0 10/11/22                                */
+/********************************************************/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ***** estilo general ***** */
+
+
+
+/* ***** fuentes ***** */
+
+
+body {
+    background-color: rgb(159, 210, 212);
+}
+
+#wrapper {
+    background-color: beige;
+    width: 80%;
+    margin: auto;
+}
+
+#hero{
+    background-image: url("../images/wanderer.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    font-size: 3rem;
+    text-align: center;
+}
+
+/* ***** fuentes ***** */
+
+
+
+/* ***** fuentes ***** */
+
+
+
+/* ***** fuentes ***** */
