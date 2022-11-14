@@ -4,6 +4,8 @@
 /* Versión: 1.0 10/11/22                                */
 /********************************************************/
 
+@import url('https://fonts.googleapis.com/css2?family=Palanquin:wght@400;500&family=Podkova:wght@500&family=Spinnaker&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -11,6 +13,19 @@
 }
 
 /* ***** estilo general ***** */
+/* Paleta de colores */
+/*
+Oscuro:     #18261C
+Claro:      #D9C49C
+Marrón:     #8C530D
+Gris claro: #BFAC9B
+Gris medio: #A6958F
+
+fonts:
+principal: Podkova
+Subtítulo: Palanquin
+Texto:     Spinnaker
+*/
 
 
 
@@ -18,7 +33,8 @@
 
 
 body {
-    background-color: rgb(159, 210, 212);
+    background-color: #736E6C;
+    font-family: "Spinnaker";
 }
 
 #wrapper {
@@ -27,14 +43,38 @@ body {
     margin: auto;
 }
 
-#hero{
-    background-image: url("../images/wanderer.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+#prueba {
+    font-family: "Palanquin";
+    font-size: 1.5rem;
+}
+
+#hero {
     height: 80vh;
+    font-family: 'Podkova';
+    color: #fff;
     font-size: 3rem;
     text-align: center;
+}
+
+#titulo {
+    position: absolute;
+    background-color: #fff2;
+    width: 50%;
+    margin: auto;
+    margin-top: 5%;
+    padding: 30px;
+    backdrop-filter: blur(5px);
+    border-radius: 50%;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+#myVideo {
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 
 /* ***** fuentes ***** */
@@ -45,4 +85,10 @@ body {
 
 
 
-/* ***** fuentes ***** */
+/* ***** media queries ***** */
+@media only screen and (max-width: 300px) {
+    #titulo {
+
+        border-radius: 10px;
+    }
+}
