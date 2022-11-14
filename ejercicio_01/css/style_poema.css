@@ -9,6 +9,14 @@
     src: url("../fonts/Tangerine-Regular.ttf");
 }
 
+:root {
+    --oscuro: #31231e;
+    --claro: #d6e5e3;
+    --grisClaro: #cacfd6;
+    --grisMedio: #7fc1b1;
+    --marron: #517664;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -16,15 +24,16 @@
 }
 
 body {
-    font-family: 'Tangerine', cursive;
+    font-family: "Tangerine", cursive;
     font-size: 2.5rem;
-    color: #F7DDC9;
+    color: var(--claro);
 }
 
 h1 {
     font-size: 3.5rem;
     font-weight: 500;
     padding: 15px 50px;
+    color: var(--grisMedio);
 }
 
 p {
@@ -37,15 +46,24 @@ img {
 }
 
 a {
-    color: #B4B8D0;
+    color: var(--grisClaro);
     text-decoration: none;
+    transition:0.2s;
+    padding: 5px 15px;
+    box-shadow: inset 0 0 0 0 var(--claro);
+    transition: color .5s ease-in-out, box-shadow .5s ease-in-out;
+    border-radius: 5px;
+}
+a:hover {
+    color: #fff;
+    color: var(--claro);
+    box-shadow: inset 300px 0 0 0 var(--marron);
 }
 
 .container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
 }
 
 .centered {

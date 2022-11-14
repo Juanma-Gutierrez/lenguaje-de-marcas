@@ -4,7 +4,7 @@
 /* Versión: 1.0 10/11/22                                */
 /********************************************************/
 
-@import url('https://fonts.googleapis.com/css2?family=Palanquin:wght@400;500&family=Podkova:wght@500&family=Spinnaker&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Palanquin:wght@400;500&family=Podkova:wght@500&family=Spinnaker&display=swap");
 
 * {
     margin: 0;
@@ -15,11 +15,12 @@
 /* ***** estilo general ***** */
 /* Paleta de colores */
 /*
-Oscuro:     #18261C
-Claro:      #D9C49C
-Marrón:     #8C530D
-Gris claro: #BFAC9B
-Gris medio: #A6958F
+
+Oscuro:     #31231E
+Claro:      #D6E5E3
+Marrón:     #517664
+Gris claro: #CACFD6
+Gris medio: #9FD8CB
 
 fonts:
 principal: Podkova
@@ -27,18 +28,15 @@ Subtítulo: Palanquin
 Texto:     Spinnaker
 */
 
-
-
 /* ***** fuentes ***** */
 
-
 body {
-    background-color: #736E6C;
+    background-color: #9fd8cb;
     font-family: "Spinnaker";
 }
 
 #wrapper {
-    background-color: beige;
+    background-color: #d6e5e3;
     width: 80%;
     margin: auto;
 }
@@ -49,46 +47,58 @@ body {
 }
 
 #hero {
+    color: #fffe;
+    font-family: "Podkova";
+    font-size: 6vw;
     height: 80vh;
-    font-family: 'Podkova';
-    color: #fff;
-    font-size: 3rem;
     text-align: center;
 }
 
 #titulo {
-    position: absolute;
-    background-color: #fff2;
-    width: 50%;
-    margin: auto;
-    margin-top: 5%;
-    padding: 30px;
     backdrop-filter: blur(5px);
+    background-color: #fff2;
+    box-shadow: 0px 0px 25px #31231e55;
     border-radius: 50%;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
+    left: 50%;
+    margin: auto;
+    max-width: 50%;
+    padding: 30px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
 }
 
 #myVideo {
-    top: 0;
+    height: 100%;
     left: 0;
+    object-fit: cover;
+    top: 0;
     width: 100%;
+}
+
+#filtro {
+    background-color: rgb(17, 5, 61,0.5);
+    border: 1px solid blue;
+    position: absolute;
+    width: 80%;
+    height: 80vh;
 }
 
 /* ***** fuentes ***** */
 
-
-
 /* ***** fuentes ***** */
 
-
-
 /* ***** media queries ***** */
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 400px) {
     #titulo {
-
         border-radius: 10px;
+        padding: 10px 0px;
+    }
+}
+@media screen and (min-width: 1600px) {
+    #titulo {
+        font-size: 6rem;
     }
 }

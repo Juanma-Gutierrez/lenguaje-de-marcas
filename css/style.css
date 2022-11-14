@@ -50,21 +50,22 @@ a {
 }
 
 .boton {
-    border: 1px solid #292521;
     border-radius: 5px;
-    background-color: #f9f9f9;
+    border: 1px solid #292521;
+    box-shadow: inset 0 0 0 0 #f9f9f9;
     color: #292521;
     font-weight: bold;
     list-style: none;
     margin: 10px;
     padding: 10px;
     text-align: center;
+    transition: color 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
     width: 200px;
 }
 
 .boton:hover {
-    background-color: #292521;
     color: #f9f9f9;
+    box-shadow: inset 300px 0 0 0 #292521;
 }
 
 .footer {
