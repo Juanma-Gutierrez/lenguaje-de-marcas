@@ -49,6 +49,7 @@ body {
 }
 
 #hero {
+    position: relative;
     height: 80vh;
     font-family: 'Podkova';
     color: #fff;
@@ -56,25 +57,62 @@ body {
     text-align: center;
 }
 
-#titulo {
-    position: absolute;
-    background-color: #fff2;
-    width: 50%;
-    margin: auto;
-    margin-top: 5%;
-    padding: 30px;
-    backdrop-filter: blur(5px);
-    border-radius: 50%;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
-}
 
 #myVideo {
     top: 0;
     left: 0;
     width: 100%;
+}
+#titulo {
+    position: absolute;
+    background-color: #fff2;
+    font-size: 4rem;
+    width: 50%;
+    padding: 30px;
+    backdrop-filter: blur(5px);
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+#hero2 {
+    margin-top: -100px;
+    position: relative;
+    height: 40vh;
+}
+
+#hero2 p {
+    background-color: #0099ff;
+}
+
+#titulo3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    /* *** nos alinea el objeto en el centro del contenedor */
+}
+
+
+#hero4 {
+    height: 80vh;
+    background-image: url('../images/low-poly-grid-haikei.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#titulo4 {
+    font-size: 5vw;
+    font-weight: bold;
+    width: 50%;
+    position:absolute;
+    color: lightseagreen;
+    top:50%;
+    left:50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
 }
 
 /* ***** fuentes ***** */
@@ -88,7 +126,9 @@ body {
 /* ***** media queries ***** */
 @media only screen and (max-width: 300px) {
     #titulo {
-
         border-radius: 10px;
     }
+}
+@media only screen and(width<=900px){
+
 }
