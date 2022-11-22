@@ -54,6 +54,12 @@ body {
     text-align: center;
 }
 
+
+#myVideo {
+    top: 0;
+    left: 0;
+    width: 100%;
+}
 #titulo {
     backdrop-filter: blur(5px);
     background-color: #fff2;
