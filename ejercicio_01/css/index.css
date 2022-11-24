@@ -185,11 +185,14 @@ a {
     transform: scale(1.05);
 }
 
-/* ***** fuentes ***** */
-
-/* ***** fuentes ***** */
-
-/* ***** fuentes ***** */
+/* ***** FOOTER ***** */
+#footer{
+    display:grid;
+    grid-template-columns: 25% 25% 50%;
+}
+#footer div{
+    padding:20px;
+}
 
 /* ***** media queries ***** */
 @media screen and (min-width: 1600px) {
