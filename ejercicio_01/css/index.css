@@ -135,12 +135,14 @@ a {
     display: grid;
     grid-template-columns: 50% 50%;
 }
-.texto {
-    padding: 20px;
+.texto  li{
+    padding: 5px 20px;
+    margin:0px 50px;
 }
 .col2 img {
     width: 100%;
 }
+
 
 /* ***** SECCIÓN AUTORES (GRID) ***** */
 #seccion3 {
@@ -150,8 +152,7 @@ a {
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     display: grid;
-    grid-template-rows: 55vh 50px 20px;
-    height: 80vh;
+    grid-template-rows: 35vh 5vh 10vh;
     overflow: hidden;
     transition: 0.3s;
 }
